@@ -21,10 +21,12 @@ html {
 body {
   margin: 0;
 }
+
 .narration p, .narration li{font-family:'Georgia'; font-size:19px; line-height:31px;}
 .narration p.lead{font-size:30px; line-height:40px;}
 .narration img {margin-top:10px;}
 p.caption {font-family: 'Arial', sans-serif; font-size:14px; line-height:20px; color:grey; margin-bottom: 25px;}
+.fact {font-family: 'Georgia'; font-size: 64px; line-height:64px; color: #f25e5e; font-weight: bold;}
 
 article,
 aside,
