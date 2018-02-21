@@ -1,5 +1,15 @@
+@charset "utf-8";
+
+@import "reset.css";
+@import "typography.css";
+@import "grid.css";
+@import "button.css";
+
+@import "header.css";
+@import "project.css";
+@import "footer.css";
  /* resetcss */
- * {
+ /* * {
   -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
           box-sizing: border-box;
@@ -46,10 +56,10 @@ table {
 
 *[data-layout="visible"] {
   display: auto !important;
-}
+} */
 
 /* typography */
-html, body,div, h1, h2, h3, h4, h5, h6, p, blockquote, a,
+/* html, body,div, h1, h2, h3, h4, h5, h6, p, blockquote, a,
 q, s, strong, b, u, i, ol, ul, li {
     font-family: 'PT Serif', serif;
     font-size: 16px;
@@ -66,9 +76,9 @@ a, button{
 }
 a:hover, button:hover{
     color: darken(yellow, 20%);
-}
+} */
 
 /* mobile */
-body {
+/* body {
     background: no-repeat left/300% url("../images/background.svg");
-}
+} */

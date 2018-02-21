@@ -1,0 +1,12 @@
+html, body, div, h1, h2, h3, h4, h5, h6, p, blockquote, a, q, s, strong, b, u, i, ol, ul, li {
+  font-size: 16px;
+  line-height: 22px;
+  font-family: 'PT Serif', serif;
+  color: #fff;
+}
+@media (min-width: 750px) {
+  html, body, div, h1, h2, h3, h4, h5, h6, p, blockquote, a, q, s, strong, b, u, i, ol, ul, li {
+    font-size: 15px;
+    line-height: 20px;
+  }
+}

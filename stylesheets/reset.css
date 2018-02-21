@@ -1,0 +1,40 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-appearance: none;
+  -webkit-text-size-adjust: 100%;
+  backface-visibility: hidden;
+  animation-fill-mode: both;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+html, body, div, span, section, article, aside, header, footer, nav, ol, ul, li, table, td, tr, th, h1, h2, h3, h4, h5, h6, blockquote, q, p, a, audio, video, iframe {
+  display: block;
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  -ms-font-smoothing: antialiased;
+  -o-font-smoothing: antialiased;
+  /* font-smoothing: antialiased; */
+}
+html, body {
+  width: 100%;
+  background-color: #272822;
+}
+a {
+  text-decoration: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+*[data-layout="hidden"] {
+  display: none !important;
+}
+*[data-layout="visible"] {
+  display: auto !important;
+}
+

@@ -1,0 +1,18 @@
+footer {
+  display: block;
+  padding: 24px 0 12px;
+  width: 60%;
+  line-height: 20px;
+  margin-left: 10%;
+  overflow: hidden;
+}
+@media (min-width: 750px) {
+  footer {
+    padding: 25px 0 20px;
+  }
+}
+footer p {
+  width: 100%;
+  float: left;
+  max-width: none;
+}
