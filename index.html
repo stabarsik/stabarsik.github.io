@@ -1,92 +1,43 @@
 <!DOCTYPE html>
-<html>
+<html lang="ru">
 <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Cимулятор работы Стаса Звягинцева</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/main.css" />
-    <!-- <script src="main.js"></script> -->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./fonts/fonts.css">
+  <link rel="stylesheet" href="./styles/style.css">
+  <title>Подарки жене</title>
 </head>
-<body>
-    <header>
-        <h1>Станислав Звягинцев</h1>
-        <nav>
-            <ul>
-                <li>
-                    <a href="mailto:stanislav.zvyagintcev@yandex.ru">Почта</a>
-                </li>
-                <li>
-                    <a href="https://t.me/stabarsik">Телеграм</a>
-                </li>
-            </ul>
-            <ul>
-                <li class="soon">
-                    Блог
-                </li>
-                <li>
-                    <a href="https://www.facebook.com/stanislav.zvyagintcev">Фейсбук</a>
-                </li>
-            </ul>
-        </nav>
-    </header>
-    <article>
-        <section>
-            Привет, я&nbsp;редактор из&nbsp;Воронежа. Пишу статьи, запускаю рассылки и&nbsp;сайты. Хочу, чтобы читатели любили бизнес
-            и&nbsp;технологии так&nbsp;же, как&nbsp;и&nbsp;я.
-        </section>
-        <!--  <section>
-        Готовлю текст и&nbsp;сюжеты иллюстраций в&nbsp;рассылку телеком-провайдера Orange. Дизайн и&nbsp;верстка&nbsp;&mdash; не&nbsp;мои. Я&nbsp;могу показать не&nbsp;все работы, но&nbsp;кое-что могу.
-      </section> -->
-        <aside>
-            <!-- <a href="http://www.orange-business.com/ru/blogs/get-ready/bezopasnost/kak-predotvratit-utechku-informacii-cherez-it-sotrudnikov-kompanii">Утечка информации через ИТ-сотрудников</a> -->
-            <a class="editor" href="http://marketing-content.orange-business.com/longread2508">Почему IVR без омниканальности раздражает
-            </a>
-            <a class="author" href="http://www.orange-business.com/files/media/gdpr.pdf">Новые положения&nbsp;EC о&nbsp;защите данных [ПДФ]
-            </a>
-            <a class="author" href="https://us10.campaign-archive.com/?e=[UNIQID]&u=5e6814b05dda7dfe15fe65518&id=1b8da7cf6f">Прогнозы до 2020: цифровая революция
-            </a>
-            <a class="author" href="https://profit.akbars.ru/test">Тест: на кого из предпринимателей вы похожи
-            </a>
-            <a class="author" href="https://profit.akbars.ru/post/kak-otkrit-manikyurnii-salon-v-gorodke-na-30-000-chelovek">Как открыть маникюрный салон в городке на 30 000 человек
-            </a>
-            <a class="author" href="https://profit.akbars.ru/post/trudovoi-dogovor-ili-dogovor-podryada">Трудовой договор или договор подряда
-            </a>
-            <a class="author" href="https://www.facebook.com/notes/make%D0%BB%D0%B0%D0%B9%D1%84/%D0%BA%D0%B0%D0%BA-%D0%B2%D1%8B%D0%B8%D0%B3%D1%80%D1%8B%D0%B2%D0%B0%D1%82%D1%8C-%D0%B2-%D1%81%D0%B2%D0%BE%D0%B5%D0%B9-%D0%BA%D0%BE%D0%BC%D0%BF%D0%B0%D0%BD%D0%B8%D0%B8/1209351992457765">Как выигрывать в своей компании
-            </a>
-            <a class="author" href="http://voronezh-room.ru/zhizn-rynka-v-epohu-gipermarketov-56579/">Поход на&nbsp;рынок для TVRN
-            </a>
-            <a class="author" href="https://readymag.com/u16129590/book-edit-design/">Промостраница книги &laquo;Редактируем дизайном&raquo;
-            </a>
-            <!-- <a href="http://www.orange-business.com/ru/blogs/get-ready/korporativnye-seti/tri-vazhnyh-biznes-zadachi-kotorye-reshayut-korporativnye-seti">Бизнес-задачи, которые решают корпоративные сети</a> -->
-        </aside>
-        <!-- <section>
-          Вел рассылку кадрового агентства Make.лайф: придумывал темы, писал, верстал в&nbsp;Мейлчимпе. Поддерживал сайт на&nbsp;Вордпрессе. Для страницы ПСИ-сканера нашел дизайнера и&nbsp;сверстал ее&nbsp;<a href="https://readymag.com/zvyagintcev/psy-scanner/">в&nbsp;Редимаге</a>, а&nbsp;потом <a href="http://make-l.ru/psyscanner/">в&nbsp;хтмле</a>. С&nbsp;дизайнером с&nbsp;Воркзиллы сделал лифлеты для конференций.
-      </section>
-      <aside>
-          <a href="https://www.facebook.com/notes/make%D0%BB%D0%B0%D0%B9%D1%84/%D0%BA%D0%B0%D0%BA-%D0%B2%D1%8B%D0%B8%D0%B3%D1%80%D1%8B%D0%B2%D0%B0%D1%82%D1%8C-%D0%B2-%D1%81%D0%B2%D0%BE%D0%B5%D0%B9-%D0%BA%D0%BE%D0%BC%D0%BF%D0%B0%D0%BD%D0%B8%D0%B8/1209351992457765">Деловые игры</a>
-          <a href="https://www.facebook.com/notes/make%D0%BB%D0%B0%D0%B9%D1%84/%D0%BA%D0%B0%D0%BA-%D0%BE%D1%86%D0%B5%D0%BD%D0%B8%D1%82%D1%8C-%D1%8D%D1%84%D1%84%D0%B5%D0%BA%D1%82%D0%B8%D0%B2%D0%BD%D0%BE%D1%81%D1%82%D1%8C-%D1%81%D0%BE%D1%82%D1%80%D1%83%D0%B4%D0%BD%D0%B8%D0%BA%D0%BE%D0%B2/1397373236988972/">Оценка эффективности сотрудников</a>
-      </aside>
-      <section>Еще</section>
-      <aside>
-          <a href="https://readymag.com/u16129590/book-edit-design/">Промостраница книги &laquo;Редактируем дизайном&raquo;</a>
-          <a href="http://voronezh-room.ru/zhizn-rynka-v-epohu-gipermarketov-56579/">Поход на&nbsp;рынок для TVRN</a>
-      </aside> -->
-    </article>
-    <footer>
-        <p>©2017, ИП Звягинцев Станислав Иванович. Вдохновлялся дизайном <a href="http://nunocoelhosantos.com">сайта Nuno Coelho Santos.</a> Комплименты, критику, предложения
-            <a href="mailto:stanislav.zvyagintcev@yandex.ru">пишите на почту</a>
-        </p>
-        <button data-action="show" data-layout="visible">Show columns</button>
-        <button data-action="hide" data-layout="hidden">Hide columns</button>
-    </footer>
-    <script src="javascripts/jquery.min.js"></script>
-    <script src="javascripts/site.js"></script>
-        <div id="grid" data-layout="hidden">
-            <span></span>
-            <section></section>
-            <aside></aside>
-            <span></span>
-        </div>
+<body class="grid grid-sizing">
+  <div class="login-page">
+    <div class="contain-icon icon-hook">
+      <svg class="box-icon box-icon-1" version="1.1" width="74px" height="89px" viewBox="0 0 74.479 89.141">
+        <path class="box-bottom-1" fill="none" stroke="#000" stroke-width="4" stroke-miterlimit="10" d="M67.874,84.885
+        c0,1.173-0.959,2.132-2.132,2.132H8.737c-1.173,0-2.132-0.959-2.132-2.132V44.389c0-1.173,0.959-2.132,2.132-2.132h57.005 c1.173,0,2.132,0.959,2.132,2.132V84.885z"/>
+        <path class="box-top-1" fill="none" stroke="#000" stroke-width="4" stroke-miterlimit="10" d="M72.354,41.018
+        c0,0.655-0.536,1.191-1.191,1.191H3.315c-0.655,0-1.191-0.536-1.191-1.191v-9.795c0-0.655,0.536-1.191,1.191-1.191h67.849
+        c0.655,0,1.191,0.536,1.191,1.191V41.018z"/>
+        <path class="bow-1" fill="none" stroke="#000" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+        M36.491,87.017c0,0,0-56.14,0-56.976c0-9.195,1.934-26.713-11.045-27.872c-9.035-0.807-14.344,9.487-11.634,17.091
+        c3.113,8.734,14.479,10.773,22.678,10.773"/>
+        <path class="bow-1 bow-1-right" fill="none" stroke="#000" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+        M37.988,87.017c0,0,0-56.14,0-56.976c0-9.195-1.934-26.713,11.045-27.872c9.035-0.807,14.344,9.487,11.634,17.091
+        c-3.113,8.734-14.479,10.773-22.678,10.773"/>
+      </svg>
+    </div>
+    <form action="" class="login-page__form form box-shadow" name="loginForm" novalidate>
+      <div class="titles">
+        <h1 class="titles__title">Место под ёлкой</h1>
+        <p class="titles__subtitle">Залогинься, жена</p>
+      </div>
+      <label for='email' class="login-form-label">
+        <span>Введи iCloud почту</span>
+        <input type="email" id="email-input" name='email' placeholder="example@icloud.com" autocomplete="email" autofocus data-error-message="Ты не моя жена" pattern="yula.bu@icloud.com"></input>
+        <span class="email-input-error form__input-error"></span>
+      </label>
+      <button type="submit">Зайти</button>
+    </form>
+  </div>
+  <script src="./scripts/index.js"></script>
 </body>
 </html>

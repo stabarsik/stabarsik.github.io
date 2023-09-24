@@ -1,0 +1,157 @@
+.wishlist {
+  grid-column: 1/13;
+  padding: 0;
+  margin: 0;
+  margin-top: 50px;
+  list-style: none;
+}
+
+.wishlist__title {
+  margin: 3rem auto;
+}
+
+.row {
+  --modifier: calc((30rem - 100%) * 999);
+  
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3rem;
+}
+
+.item {
+  flex-basis: max(var(--modifier), 0px );  
+  aspect-ratio: var(--ratio);
+  flex-grow: calc(var(--ratio));
+}
+
+.item img {
+  display: block;
+  width: 100%;
+  height: auto;
+  /* aspect-ratio: var(--ratio);
+  object-fit: cover; */
+}
+
+.info {
+  position: absolute;
+  top: -30px;
+  left: 30px;
+}
+
+.info__name {
+  font-family: 'Raleway', sans-serif;
+  font-size: 38px;
+  line-height: 85%;
+  text-decoration: none;
+  color: var(--accent);
+  border-bottom: 4px var(--accent) solid;
+  text-transform: lowercase;
+}
+
+.row {
+  border: 1px dashed rgb(255 255 255 / 0.4);
+  margin-inline: auto;
+}
+
+.row + .row {
+  margin-top: 3rem;
+}
+
+.item {
+  background: #f09;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  position: relative;
+  box-shadow: 30px -30px teal;
+}
+
+.item + .item { background: #09f;}
+
+.item + .item + .item { background: #90f;}
+
+a {
+  color: #ec53af;
+}
+
+.delete {
+  position: absolute;
+  width: 18px;
+  height: 19px;
+  top: 20px;
+  right: 20px;
+  background: url(../../images/delete.svg);
+}
+
+.delete:hover {
+  cursor: pointer;
+}
+
+
+/* @media (max-width: 405px) {
+  .cards{
+    margin-top: 36px;
+  }
+}
+
+.card {
+  position: relative;
+  background-color: #fff;
+  color: #000;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.place {
+  width: 100%;
+  height: 282px;
+  object-fit: cover;
+}
+
+.place:hover {
+  cursor: pointer;
+}
+
+.name {
+  width: 80%;
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 29.05px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.like {
+  appearance: none;
+  border: 0px;
+  background: url(../../images/like-disable.svg) no-repeat;
+  background-size: cover;
+  width: 22px;
+  height: 19px;
+  padding: 0;
+}
+
+.like:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.active {
+  background: url(../../images/like-active.svg);
+}
+
+.delete {
+  position: absolute;
+  width: 18px;
+  height: 19px;
+  top: 20px;
+  right: 20px;
+  background: url(../../images/delete.svg);
+}
+
+.delete:hover {
+  cursor: pointer;
+} */

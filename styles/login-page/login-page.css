@@ -1,0 +1,21 @@
+.login-page {
+  height: 90vh;
+  grid-column: 1/13;
+  /* width: 100%;
+  height: 90vh; */
+  gap: 10px;
+  display: flex;
+  flex-flow: column;
+  justify-content: end;
+}
+
+.login-page__form {
+  width: 80%;
+  margin: 0 auto;
+}
+
+@media (max-width: 430px) {
+  .login-page__form {
+    width: 100%;
+  }
+}

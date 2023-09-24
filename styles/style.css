@@ -1,0 +1,15 @@
+@import url(common/reset.css);
+@import url(common/grid.css);
+@import url(common/modal.css);
+@import url(common/modal-image.css);
+@import url(common/flex.css);
+@import url(common/svg.css);
+@import url(common/decor.css);
+@import url(titles/title.css);
+@import url(login-page/login-page.css);
+@import url(header/header.css);
+@import url(profile/profile.css);
+@import url(now-gift/now-gift.css);
+@import url(cards/cards.css);
+@import url(progress/progress.css);
+@import url(footer/footer.css);

@@ -1,0 +1,47 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  text-transform: lowercase;
+}
+
+:root {
+	--hue: 0;
+	--bg: #80D994;
+  --accent: #FFC802;
+	--fg: hsl(var(--hue),90%,90%);
+	--fill: hsl(133,90%,40%);
+	--trans-dur: 0.3s;
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+  font-family: Raleway, sans-serif;
+  font-size: 18px;
+  background-color: var(--bg);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+li,
+blockquote {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: inherit;
+}
+
+img {
+  width: 100%;
+}
+
