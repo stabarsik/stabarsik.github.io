@@ -33,6 +33,16 @@ class Wishlist {
       name: 'Лонгборд левый какой-то',
       link: 'https://sporttop.com.ua/ua/catalog/aktivnyy_sport/skeytbordy/longbordy/29346/',
       image: 'https://sporttop.com.ua/upload/iblock/30f/30f85a99a0b98a777332df6bcc6d20b0.jpg'
+    },
+    {
+      name: 'Бабкин шопер',
+      link: 'https://www.amazon.com/dbest-products-Trolley-Shopping-Foldable/dp/B074KQD5SQ?keywords=Shopping+Bag+On+Wheels&qid=1696922577&sr=8-3&th=1',
+      image: 'https://m.media-amazon.com/images/I/91oqkSmlgoL._AC_SY879_.jpg'
+    },
+    {
+      name: 'Ну хоть что-то от Дайсона',
+      link: 'https://www.dyson.com.sg/hair-clips?UTM_ID=100004696192466&UTM_Source=instagram&UTM_Campaign=pc_hair_clips_product_launch&UTM_Content=do_link_in_bio',
+      image: 'https://dyson-h.assetsadobe2.com/is/image/content/dam/dyson/leap-petite-global/products/personal-care/hair-clips/658_FS-02C_Wide_open_angle.jpg?$responsive$&cropPathE=desktop&fit=stretch,1&wid=3840'
     }
   ];
 
@@ -56,7 +66,7 @@ class Wishlist {
     if (this.addForm?.nameInput.value !== "" && this.addForm?.linkInput.value !== "" && this.addForm?.linkGiftInput.value !=="") {
       this.lastRow = this.checkExistingRow(this.cardsContainer);
       const card = Cards.createCard(this.cardTemplate, this.addForm?.nameInput.value, this.addForm?.linkGiftInput.value);
-      this.addCard(this.lastRow, card, this.addForm?.linkInput.value, this.addForm?.nameInput.value, true)
+      this.addCard(this.lastRow, card, this.addForm?.linkInput.value, this.addForm?.nameInput.value, true);
     }
   }
   checkExistingRow(cardsContainer) {
